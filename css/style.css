@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.container-inner {
+    display: flex;
+    width: 1200px;
+    height: 800px;
+    background-color: lightgrey;
+}
+
+.square {
+    height: 133.3px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+.square-yellow {
+    background-color: yellow;
+}
+
+.square-green {
+    background-color: green;
+}
